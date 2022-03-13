@@ -153,5 +153,3 @@ https://user-images.githubusercontent.com/6595568/158034066-82ab398a-144c-4963-a
 <a href="https://madscorecard.withgoogle.com/scorecard/share/1775169999/">
 <img src="art/MAD.png"/>
 </a>
-
-:sunflower:
