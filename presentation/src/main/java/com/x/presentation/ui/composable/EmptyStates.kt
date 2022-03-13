@@ -11,6 +11,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.x.presentation.R
 import com.x.presentation.ui.theme.Theme
@@ -127,11 +128,13 @@ object EmptyStates {
                 Text(
                     text = title.getString(),
                     color = Theme.colors.primary,
+                    textAlign = TextAlign.Center,
                     style = Theme.typography.headlineMedium
                 )
                 Text(
                     text = description.getString(),
                     color = Theme.colors.onPrimaryContainer,
+                    textAlign = TextAlign.Center,
                     modifier = Modifier.padding(
                         all = Theme.dimens.space.medium
                     )
@@ -166,7 +169,8 @@ object EmptyStates {
             ) {
                 Text(
                     text = text.getString(),
-                    color = Theme.colors.onSecondary
+                    color = Theme.colors.onSecondary,
+                    textAlign = TextAlign.Center
                 )
             }
         }

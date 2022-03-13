@@ -14,7 +14,7 @@
 </a>
 
 <a href="https://play.google.com/store/apps/details?id=com.x.jenci" target="_blank">
-<img src="https://img.shields.io/badge/Beta-0.0.7-000000?style=for-the-badge&logo=googleplay&labelColor=000000"/>
+<img src="https://img.shields.io/badge/Beta-0.0.8-000000?style=for-the-badge&logo=googleplay&labelColor=000000"/>
 </a>
 
 <a href="#" target="_blank">

@@ -12,10 +12,10 @@ interface ActionService {
     @POST("safeRestart")
     suspend fun safeRestart(): Response<ResponseBody>
 
-    @POST("shutdown")
+    @POST("exit")
     suspend fun shutdown(): Response<ResponseBody>
 
-    @POST("safeshutdown")
+    @POST("safeExit")
     suspend fun safeshutdown(): Response<ResponseBody>
 
     @POST("quietDown")
