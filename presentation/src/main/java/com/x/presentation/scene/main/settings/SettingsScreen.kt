@@ -51,7 +51,7 @@ fun SettingsScreen(
         onPeopleClick = navigatePeople,
         onProfileClick = navigateProfile,
         onGithubClick = {
-            context.start(url = "https://github.com/ResulSilay/Jenci-Development")
+            context.start(url = "https://github.com/ResulSilay/jenci")
         },
         onShareClick = {
             context.share(text = shareMessage + "https://play.google.com/store/apps/details?id=${context.packageName}")
