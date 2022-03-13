@@ -1,0 +1,53 @@
+
+# Gradle files
+.gradle/
+build/
+build?[0-1]/
+data/build?[0-1]/
+common/build?[0-1]/
+presentation/build?[0-1]/
+buildSrc/build?[0-1]/
+release/
+
+# Folders
+art/store/
+art/psd/
+store/
+
+*.icloud
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log/OS Files
+*.log
+*.pub
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+output.json
+
+# IntelliJ
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# Keystore files
+*.jks
+*.keystore
+jenci
+
+# Google Services (e.g. APIs or Firebase)
+google-services.json
+
+# Android Profiling
+*.hprof
+
+# other folder/file
+/data/schemas/com.x.data.db.AppDatabase/
+/gradle 2/wrapper/

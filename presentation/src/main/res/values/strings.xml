@@ -1,0 +1,211 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">jenci</string>
+    <string name="app_name_logo_desc">jenci</string>
+
+    <!-- Menu -->
+    <string name="menu_home">Home</string>
+    <string name="menu_node">Nodes</string>
+    <string name="menu_view">Views</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- Register -->
+    <string name="register_welcome">Welcome back!</string>
+    <string name="register_desc">Create an account and connect.</string>
+    <string name="register_input_name">Name</string>
+    <string name="register_input_host">Host</string>
+    <string name="register_input_username">Username</string>
+    <string name="register_input_password">Password</string>
+    <string name="register_input_visibility_password_desc">Password Visibility</string>
+    <string name="register_account_save">Save Account</string>
+
+    <string name="login_header_text">Login with your account for Jenkins connection.</string>
+    <string name="login_footer_text">Add your accounts and connect.</string>
+    <string name="login_footer_register">Create a new Account.</string>
+
+    <string name="login_account_not_found_empty_state_text">You do not have any account.</string>
+    <string name="login_account_create_empty_state_btn_text">Add Account</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_user_welcome_text">Welcome</string>
+
+    <string name="dashboard_stats_node_card_text">Nodes</string>
+    <string name="dashboard_stats_view_card_text">Views</string>
+    <string name="dashboard_stats_queries_card_text">Queries</string>
+    <string name="dashboard_stats_job_card_text">Jobs</string>
+
+    <string name="dashboard_build_card_header_text">Build Chart</string>
+    <string name="dashboard_queue_card_header_text">Top Queues</string>
+    <string name="dashboard_action_card_header_text">Actions</string>
+    <string name="dashboard_action_icon_desc">Action</string>
+
+    <string name="dashboard_chart_not_found_message">Not enough data was found for the chart.</string>
+    <string name="dashboard_queue_card_empty_state_text">No builds are found in the queue at the moment.</string>
+
+    <!-- Job -->
+    <string name="job_title">Job:</string>
+    <string name="job_build_fab_desc">Start Build</string>
+    <string name="job_build_fab_text">Build</string>
+
+    <string name="job_header_overview_text">Build Overview</string>
+    <string name="job_header_build_text">Builds</string>
+
+    <string name="job_health_report_icon_desc">Status</string>
+    <string name="job_health_report_desc_text">Description</string>
+
+    <string name="job_build_first">First Build:</string>
+    <string name="job_build_last">Last Build:</string>
+    <string name="job_build_completed">Last Completed Build:</string>
+    <string name="job_build_failed">Last Failed Build:</string>
+    <string name="job_build_successful">Last Successful Build:</string>
+    <string name="job_build_unsuccessful">Last Unsuccessful Build:</string>
+    <string name="job_build_stable">Last Stable Build:</string>
+    <string name="job_build_unstable">Last Unstable Build:</string>
+
+    <!-- Job Detail -->
+    <string name="job_detail_header">Job:</string>
+    <string name="job_detail_build_header">Build:</string>
+
+    <string name="job_detail_item_status_text">Status</string>
+    <string name="job_detail_item_buildable_text">Buildable</string>
+    <string name="job_detail_item_disabled_text">Disabled</string>
+    <string name="job_detail_item_inQueue_text">inQueue</string>
+    <string name="job_detail_item_keepDependencies_text">Keep Dependencies</string>
+    <string name="job_detail_item_concurrentBuild_text">Concurrent Build</string>
+    <string name="job_detail_item_nextBuildNumber_text">Next Build Number</string>
+
+    <string name="job_detail_item_display_name_text">Display Name</string>
+    <string name="job_detail_item_desc_text">Description</string>
+    <string name="job_detail_item_build_number_text">Build Number</string>
+    <string name="job_detail_item_queue_id_text">Queue Id</string>
+    <string name="job_detail_item_building_text">Building</string>
+    <string name="job_detail_item_keep_log_text">Keep Log</string>
+    <string name="job_detail_item_duration_text">Duration</string>
+    <string name="job_detail_item_estimated_duration_text">Estimated Duration</string>
+    <string name="job_detail_item_datetime_text">Datetime</string>
+    <string name="job_detail_item_result_text">Result</string>
+
+    <string-array name="job_tabs">
+        <item>OVERVIEW</item>
+        <item>ARTIFACTS</item>
+        <item>CONSOLE LOG</item>
+    </string-array>
+
+    <!-- Nodes -->
+    <string name="node_header">Nodes</string>
+
+    <!-- Nodes Detail-->
+    <string name="node_detail_header">Nodes</string>
+    <string name="node_detail_item_name_text">Name</string>
+    <string name="node_detail_item_desc_text">Description</string>
+    <string name="node_detail_item_idle_text">Idle</string>
+    <string name="node_detail_item_jnlp_agent_text">Jnlp Agent</string>
+    <string name="node_detail_item_launch_supported_text">Launch Supported</string>
+    <string name="node_detail_item_manuel_launch_allowed_text">Manuel Launch Allowed</string>
+
+    <!-- Profile Detail-->
+    <string name="profile_header_text">Profile</string>
+    <string name="profile_item_name_text">Name</string>
+    <string name="profile_item_desc_text">Description</string>
+    <string name="profile_item_address_text">Address</string>
+
+    <!-- People Detail-->
+    <string name="people_header_text">People</string>
+
+    <!-- Queue Detail-->
+    <string name="queue_header_text">Queues</string>
+    <string name="queue_item_number_text">Queue #</string>
+
+    <!-- Settings Detail-->
+    <string name="settings_header_text">Settings</string>
+    <string name="settings_group_general_text">General</string>
+    <string name="settings_group_general_people_text">People</string>
+    <string name="settings_group_general_profile_text">Profile</string>
+
+    <string name="settings_group_about_text">About</string>
+    <string name="settings_group_about_share_text">Share</string>
+    <string name="settings_group_about_github_text">Github</string>
+    <string name="settings_group_about_rate_us_text">Rate Us</string>
+
+    <string name="settings_group_session_text">Session</string>
+    <string name="settings_group_session_logout_text">Logout</string>
+
+    <!-- View-->
+
+    <!--Build Action-->
+    <string name="build_sheet_title">Enter the build parameters.</string>
+    <string name="build_sheet_action_btn_text">Build</string>
+
+    <!-- Empty -->
+    <string name="empty_field">-</string>
+
+    <!-- Other Array -->
+    <string-array name="actions">
+        <item>RESTART</item>
+        <item>SAFE RESTART</item>
+        <item>SHUTDOWN</item>
+        <item>SAFE SHUTDOWN</item>
+        <item>QUIET DOWN</item>
+        <item>CANCEL QUIET DOWN</item>
+    </string-array>
+
+    <!-- Dialogs-->
+    <string name="action_dialog_title">Warning</string>
+    <string name="action_dialog_desc">Do you want to perform the action?</string>
+
+    <string name="account_remove_dialog_title">Warning</string>
+    <string name="account_remove_dialog_desc">Do you want to remove your account?</string>
+
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <!-- Chart Types-->
+    <string name="chart_type_bar_text">Bar</string>
+    <string name="chart_type_line_text">Line</string>
+
+    <!-- Empty States-->
+    <string name="empty_states_login_failure_title">Login failed.</string>
+    <string name="empty_states_login_failure_desc">Try again, go to the accounts page.</string>
+    <string name="empty_states_login_failure_action_text">Accounts</string>
+
+    <string name="empty_states_jenkins_action_title">Action Started</string>
+    <string name="empty_states_jenkins_action_desc">Your action has been started. You can refresh the page.</string>
+    <string name="empty_states_jenkins_action_text">Refresh</string>
+
+    <string name="empty_states_queue_cancel_action_title">Cancellation started</string>
+    <string name="empty_states_queue_cancel_action_desc">Queue cancellation initiated.</string>
+
+    <string name="empty_states_job_build_action_title">Build Started</string>
+    <string name="empty_states_job_build_action_desc">Build has been started, it is being renewed.</string>
+
+    <string name="empty_states_failure_title">Oops</string>
+    <string name="empty_states_failure_description">Something went wrong, please try again.</string>
+
+    <string name="empty_states_network_title">Internet Unavailable</string>
+    <string name="empty_states_network_description">Please check your network connection.</string>
+
+    <string name="empty_states_not_found_title">Not Found</string>
+    <string name="empty_states_not_found_description">No item or items were found.</string>
+
+    <string name="empty_states_action_try_again">Try Again</string>
+
+    <!-- Parameter Values -->
+    <string name="parameter_boolean_true">true</string>
+
+    <!-- Validation Messages -->
+    <string name="validation_register_name_error_message">Please enter a name.</string>
+    <string name="validation_register_host_error_message">Please enter a hostname.</string>
+    <string name="validation_register_username_error_message">Please enter an username.</string>
+    <string name="validation_register_password_error_message">Please enter a password.</string>
+
+    <!-- Validation Messages -->
+    <string name="share_play_store_text">Jenci - Jenkins Application: </string>
+
+    <!-- Content Description -->
+    <string name="app_bar_back_content_description">Back</string>
+    <string name="login_action_icon_content_description">Action</string>
+    <string name="build_result_item_icon_content_description">Build Result</string>
+    <string name="text_field_error_icon_content_description">Error Icon</string>
+</resources>
